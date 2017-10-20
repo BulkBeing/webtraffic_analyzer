@@ -54,7 +54,7 @@ sub printit {
 	}
 
 };
-
+unlink "/tmp/tcpdump.log";
 print "\n\nTop Hosts:\n";
 printit(\%HOST);
 print "\n\nTop IPs:\n";
