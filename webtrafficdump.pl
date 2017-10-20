@@ -2,7 +2,6 @@
 use strict;
 use warnings;
 use Parallel::ForkManager;
-use Data::Dumper;
 
 my $pm = Parallel::ForkManager->new(1);
 
